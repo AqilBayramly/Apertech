@@ -8,6 +8,8 @@
 		<link href="css/style.css" rel="stylesheet">
 		<link href="css/responsive.css" rel="stylesheet">
 		<link href="css/pageHeader.css" rel="stylesheet">
+		<link href="css/scrollToTop.css" rel="stylesheet">
+		
 
 
 
@@ -43,9 +45,9 @@
     <div class="preloader"></div>
  	
 	<header id="header">
-		<div class=" sxsxssx">
+		<div class="container">
 	
-		  <div id="logo" class="pull-left">
+		  <div id="header__logo" class="pull-left">
 			<a href="index.html"><img src="images/logoAnar.png" alt="" title="" /></img></a>
 		  </div>
 	
@@ -53,11 +55,10 @@
 			<ul class="nav-menu">
 			  <li><a href="index.html">Home</a></li>
 			  <li class="menu-active"><a href="#">About Us</a></li>
-			  <li><a href="services.html">Services</a>
+			  <li class="menu-has-children"><a href="services.html">Services</a>
 				<ul>
 				  <li><a href="services-detail-consulting.html" target="_blank">ERP Counsultancy</a></li>
-				  <li><a href="services-detail-web.html"target="_blank">Web Development</a>
-				  </li>
+				  <li><a href="services-detail-web.html"target="_blank">Web Development</a></li>
 				  <li><a href="services-detail-impl.html"target="_blank">ERP Implementation</a></li>
 				  <li><a href="services-detail-soft.html"target="_blank">Soft Implementation</a></li>
 				  <li><a href="services-detail-analytic.html"target="_blank">Business Analytics</a></li>
@@ -68,10 +69,10 @@
 			  <li><a href="partners&clients.html">Partners & Clients</a></li>
 			  <li><a href="contact.html">Contact Us</a></li>
 			</ul>
-		</nav>
 			<div class="btn-box">
 				<a href="consulting.html" class="theme-btn btn-style-one"><span class="txt">Free Consulting</span></a>
 			</div>
+		</nav>
 		</div>
 	  </header>
 	
@@ -88,9 +89,6 @@
     </section>
     <!--End Page Title-->
 	
-
-
-
 	<!-- About Section -->
 	<section class="about-section">
 		<div class="auto-container">
@@ -560,7 +558,7 @@
 
 
 <!--Scroll to top-->
-<div class="scroll-to-top scroll-to-target" data-target="html"><span class="fa fa-arrow-up"></span></div>
+<a href="#" class="back-to-top"><i class="fa-solid fa-angles-up"></i></a>
 
 <script src="js/jquery.js"></script>
 <script src="js/popper.min.js"></script>
