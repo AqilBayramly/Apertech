@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>APERTECH | ERP Implementation</title>
+<!-- Stylesheets -->
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<link href="css/responsive.css" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Nunito+Sans:wght@300;600;700;800;900&display=swap" rel="stylesheet">
+
+<!-- Color Switcher Mockup -->
+<link href="css/color-switcher-design.css" rel="stylesheet">
+
+<!-- Color Themes -->
+<link id="theme-color-file" href="css/color-themes/default-theme.css" rel="stylesheet">
+
+<link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+<link rel="icon" href="images/favicon.png" type="image/x-icon">
+
+<!-- Responsive -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
+<!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
+<!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
+
+<script src="https://kit.fontawesome.com/14b869a0ff.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body class="hidden-bar-wrapper">
+
+<div class="page-wrapper">
+ 	
+    <!-- Preloader -->
+    <div class="preloader"></div>
+ 	
+ 	<!-- Main Header-->
+    <header class="main-header header-style-one">
+    	
+		<!-- Header Top -->
+        <div class="header-top">
+            <div class="auto-container">
+                <div class="clearfix">
+					<!-- Top Left -->
+					<div class="top-left">
+						<!-- Info List -->
+						<ul class="info-list">
+							<li><a href="mailto:info@apertech.net"><span class="icon flaticon-email"></span> info@apertech.net</a></li>
+							<li><a href="tel:786-875-864-75"><span class="icon flaticon-telephone"></span> 786 875 864 75</a></li>
+						</ul>
+					</div>
+					
+					<!-- Top Right -->
+                    <div class="top-right pull-right">
+						<!-- Social Box -->
+						<ul class="social-box">
+							<li><a href="https://www.facebook.com/Apertech/" class="fa fa-facebook-f" target="_blank"></a></li>
+							<li><a href="#" class="fa fa-twitter"></a></li>
+							<li><a href="https://az.linkedin.com/company/apertech1" class="fa fa-linkedin" target="_blank"></a></li>
+							<li><a href="#" class="fa fa-google"></a></li>
+						</ul>
+                    </div>
+					
+                </div>
+            </div>
+        </div>
+		
+		<!--Header-Upper-->
+        <div class="header-upper">
+        	<div class="auto-container clearfix">
+            	
+				<div class="pull-left logo-box">
+					<div class="logo"><a href="index.html"><img src="images/logoAnar.png" alt="logo" title=""></a></div>
+				</div>
+				
+				<div class="nav-outer clearfix">
+					<!--Mobile Navigation Toggler-->
+					<div class="mobile-nav-toggler"><span class="icon flaticon-menu"></span></div>
+					<!-- Main Menu -->
+					<nav class="main-menu navbar-expand-md">
+						<div class="navbar-header">
+							<!-- Toggle Button -->    	
+							<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+						</div>
+
+						<div class="navbar-collapse collapse clearfix" id="navbarSupportedContent">
+							<ul class="navigation clearfix">
+								<li><a href="index.html">Home</a></li>
+								<li><a href="about.html">About</a></li>
+								<li><a href="services.html">Services</a></li>
+								<li><a href="solutions.html">Solutions</a></li>
+								<li><a href="partners&clients.html">Partners & Clients</a></li>
+								<li><a href="contact.html">Contact Us</a></li>
+							</ul>
+						</div>
+					</nav>
+					
+					<!-- Main Menu End-->
+					<div class="outer-box clearfix">
+						
+						<!-- Search Btn -->
+						<!-- <div class="search-box-btn search-box-outer"><span class="icon fa fa-search"></span></div> -->
+						
+						<!-- Nav Btn -->
+						<div class="nav-btn navSidebar-button"><span class="icon flaticon-menu-2"></span></div>
+						
+						<!-- Quote Btn -->
+						<div class="btn-box">
+							<a href="consulting.html" class="theme-btn btn-style-one"><span class="txt">Free Consulting</span></a>
+						</div>
+							
+					</div>
+				</div>
+				
+            </div>
+        </div>
+        <!--End Header Upper-->
+
+		<!-- Search Popup -->
+<!-- <div class="search-popup">
+	<button class="close-search style-two"><span class="flaticon-multiply"></span></button>
+	<button class="close-search"><span class="flaticon-up-arrow-1"></span></button>
+	<form method="post" action="partners&clients.html">
+		<div class="form-group">
+			<input type="search" name="search-field" value="" placeholder="Search Here" required="">
+			<button type="submit"><i class="fa fa-search"></i></button>
+		</div>
+	</form>
+</div> -->
+<!-- End Header Search -->
+        
+		<!-- Sticky Header  -->
+        <div class="sticky-header">
+            <div class="auto-container clearfix">
+                <!--Logo-->
+                <div class="logo pull-left">
+                    <a href="index.html" title=""><img src="images/logoAnar.png" alt="" title=""></a>
+                </div>
+                <!--Right Col-->
+                <div class="pull-right">
+                    <!-- Main Menu -->
+                    <nav class="main-menu">
+                        <!--Keep This Empty / Menu will come through Javascript-->
+                    </nav><!-- Main Menu End-->
+					
+					<!-- Main Menu End-->
+					<div class="outer-box clearfix">
+						
+						<!-- Search Btn -->
+						<!-- <div class="search-box-btn search-box-outer"><span class="icon fa fa-search"></span></div> -->
+						
+						<!-- Nav Btn -->
+						<div class="nav-btn navSidebar-button"><span class="icon flaticon-menu"></span></div>
+						
+					</div>
+					
+                </div>
+            </div>
+        </div><!-- End Sticky Menu -->
+    
+		<!-- Mobile Menu  -->
+        <div class="mobile-menu">
+            <div class="menu-backdrop"></div>
+            <div class="close-btn"><span class="icon flaticon-multiply"></span></div>
+            
+            <nav class="menu-box">
+                <div class="nav-logo"><a href="index.html"><img src="images/logoAnar.png" alt="" title=""></a></div>
+                <div class="menu-outer"><!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header--></div>
+            </nav>
+        </div><!-- End Mobile Menu -->
+	
+    </header>
+    <!-- End Main Header -->
+	
+	<!-- Sidebar Cart Item -->
+	<div class="xs-sidebar-group info-group">
+		<div class="xs-overlay xs-bg-black"></div>
+		<div class="xs-sidebar-widget">
+			<div class="sidebar-widget-container">
+				<div class="widget-heading">
+					<a href="#" class="close-side-widget">
+						X
+					</a>
+				</div>
+				<div class="sidebar-textwidget">
+					
+					<!-- Sidebar Info Content -->
+					<div class="sidebar-info-contents">
+						<div class="content-inner">
+							<div class="logo">
+								<a href="index.html"><img src="images/logoAnar.png" alt="" /></a>
+							</div>
+							<div class="content-box">
+								<h2>About Us</h2>
+								<p class="text">Effective IT Solutions understands that every business is unique, and because of this we offer support options that can be personally tailored to suit your IT needs.</p>
+								<p class="text">Our main purpose is a built a system, that will meet all your requirements, save time and to make your working time more pleasant.</p>
+								<a href="contact.html" class="theme-btn btn-style-two"><span class="txt">Contact Us</span></a>
+							</div>
+							<div class="contact-info">
+								<h2>Contact Info</h2>
+								<ul class="list-style-one">
+									<li><span class="icon"><i class="fa-solid fa-location-arrow"></i></i></span>Baku, 31 Ahmad Rajabli, Aztex Plaza, 3 floor</li>
+									<li><span class="icon"><i class="fa-solid fa-phone"></i></span>(111) 111-111-1111</li>
+									<li><span class="icon"><i class="fa-solid fa-envelope"></i></span>info@apertech.net</li>
+									<li><span class="icon"><i class="fa-regular fa-clock"></i></i></span>Week Days: 09.00 to 18.00 Saturday & Sunday: Closed</li>
+								</ul>
+							</div>
+							<!-- Social Box -->
+							<ul class="social-box">
+								<li class="facebook"><a href="https://www.facebook.com/Apertech/" class="fa fa-facebook-f" target="_blank"></a></li>
+								<li class="twitter"><a href="#" class="fa fa-twitter"></a></li>
+								<li class="linkedin"><a href="https://az.linkedin.com/company/apertech1" class="fa fa-linkedin" target="_blank"></a></li>
+								<li class="instagram"><a href="#" class="fa fa-instagram"></a></li>
+							</ul>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- END sidebar widget item -->
+	
+	<!--Page Title-->
+    <section class="page-title">
+		<div class="pattern-layer-one page__header__image" ><img src="images/service-details/gradient-dark-blue-futuristic-digital-background_53876-160646.avif"></div>
+    	<div class="auto-container">
+			<h2>ERP Implementation</h2>
+			<ul class="page-breadcrumb">
+				<li><a href="index.html">home</a></li>
+				<li><a href="services.html">services</a></li>
+			</ul>
+        </div>
+    </section>
+    <!--End Page Title-->
+
+	<!--Sidebar Page Container-->
+    <div class="sidebar-page-container">
+    	<div class="auto-container">
+        	<div class="row clearfix">
+				
+				<!-- Sidebar Side -->
+                <div class="sidebar-side left-sidebar col-lg-4 col-md-12 col-sm-12">
+                	<aside class="sidebar sticky-top">
+						
+						<!-- Services -->
+                        <div class="sidebar-widget">
+                            <ul class="service-list">
+                                <li><a href="services-detail-consulting.html"><span class="arrow fa fa-angle-double-right"></span> ERP Counsultancy</a></li>
+                                <li><a href="services-detail-web.html"><span class="arrow fa fa-angle-double-right"></span> Web Development</a></li>
+                                <li class="current"><a href="#"><span class="arrow fa fa-angle-double-right"></span> ERP Implementation</a></li>
+								<li><a href="services-detail-soft.html"><span class="arrow fa fa-angle-double-right"></span> Soft Implementation</a></li>
+                                <li><a href="services-detail-analytic.html"><span class="arrow fa fa-angle-double-right"></span> Business Analytics</a></li>
+                                <li><a href="services-detail-support.html"><span class="arrow fa fa-angle-double-right"></span> Support</a></li>
+                            </ul>
+                        </div>
+						
+						<!-- Contact Widget -->
+						<div class="sidebar-widget contact-widget">
+							<div class="widget-content">
+								<div class="border-layer"></div>
+								<div class="icon-box flaticon-phone-call"></div>
+								<h4>How Can We Help?</h4>
+								<div class="text">If you need any help, please</div>
+								<div class="text">feel free to contact us.</div>
+								<ul>
+									<li><span class="icon flaticon-call"></span>+1234567890</li>
+									<li><span class="icon flaticon-envelope"></span>info@apertech.net</li>
+								</ul>
+							</div>
+						</div>
+						
+					</aside>
+				</div>
+				
+				<!-- Content Side -->
+                <div class="content-side right-sidebar col-lg-8 col-md-12 col-sm-12">
+                	<div class="services-detail">
+						<div class="inner-box">
+							<h2>ERP Implementation</h2>
+							<div class="image-two">
+								<img src="images/service-details/online-marketing_53876-176744.avif" alt="" />
+							</div>
+							<p>We offer comprehensive ERP implementation services to help you streamline your business processes and unlock new levels of efficiency. With our expertise, we can guide you through every step of the ERP implementation journey, ensuring a smooth transition and maximizing the value of your investment.</p>
+							<p>We understand that ERP implementation can be a complex endeavor, involving multiple stakeholders and critical business functions. That's why we'll collaborate closely with your team, ensuring effective communication and fostering a shared understanding of the implementation roadmap. We'll guide you through the selection, configuration, and customization of the ERP system, ensuring it meets your unique business needs.</p>
+							<p>Whether you're implementing a new ERP system or upgrading an existing one, we'll provide guidance and expertise throughout the entire process.</p>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+	
+
+	
+	<!-- Main Footer -->
+    <footer class="main-footer style-three">
+		<div class="pattern-layer-three" style="background-image: url(images/background/pattern-14.png)"></div>
+		<div class="pattern-layer-four" style="background-image: url(images/background/pattern-15.png)"></div>
+		<!--Waves end-->
+    	<div class="auto-container">
+        	<!--Widgets Section-->
+		    <div class="widgets-section">
+            	<div class="row clearfix footer__row">
+                	
+                    <!-- Column -->
+                    <div class="big-column col-lg-6 col-md-12 col-sm-12">
+						<div class="row clearfix footer__content">
+                        	<!-- Footer Column -->
+                            <div class="footer-column col-lg-7 col-md-6 col-sm-12">
+                                <div class="footer-widget logo-widget">
+									<div class="logo">
+										<a href="index.html"><img src="images/logoAnar.png" alt="" /></a>
+									</div>
+									<div class="text text__justify">We are a friendly business solutions consulting company providing all sizes of organization with leading-edge technology  solutions. </div>
+									<!-- Social Box -->
+									<ul class="social-box">
+										<li><a href="https://www.facebook.com/Apertech/" class="fa fa-facebook-f" target="_blank"></a></li>
+										<li><a href="https://az.linkedin.com/company/apertech1" class="fa fa-linkedin" target="_blank"></a></li>
+										<li><a href="#" class="fa fa-twitter"></a></li>
+										<li><a href="#" class="fa fa-google"></a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+						
+							<!-- Footer Column -->
+							<div class="footer-column col-lg-6  col-sm-12 footer__content">
+								<div class="footer-widget contact-widget ">
+									<h5>Contact Us</h5>
+									<ul>
+										<li>
+											<span class="icon flaticon-placeholder-2"></span>
+											<strong>Address</strong>
+											Baku, 31 Ahmad Rajabli, Aztex Plaza, 3 floor
+										</li>
+										<li>
+											<span class="icon flaticon-phone-call"></span>
+											<strong>Phone</strong>
+											<a href="tel:+786-875-864-75">+ 786 875 864 75</a>
+										</li>
+										<li>
+											<span class="icon flaticon-email-1"></span>
+											<strong>E-Mail</strong>
+											<a href="mailto:info@apertech.net">info@apertech.net</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+					
+				</div>
+			</div>
+		</div>
+		
+		<!-- Footer Bottom -->
+		<div class="footer-bottom">
+			<div class="auto-container">
+					<!-- Column -->
+						<div class="copyright">APERTECH Solutions. All Rights Reserved. © 2023</div>
+					<!-- Column -->
+			</div>
+		</div>
+		
+	</footer>
+	
+	
+</div>
+<!--End pagewrapper-->
+
+<!-- Color Palate / Color Switcher -->
+
+<div class="color-palate">
+    <div class="color-trigger">
+        <i class="fa fa-gear"></i>
+    </div>
+    <div class="color-palate-head">
+        <h6>Choose Your Color</h6>
+    </div>
+	
+	<div class="various-color clearfix">
+        <div class="colors-list">
+            <span class="palate default-color active" data-theme-file="css/color-themes/default-theme.css"></span>
+            <span class="palate green-color" data-theme-file="css/color-themes/green-theme.css"></span>
+            <span class="palate olive-color" data-theme-file="css/color-themes/olive-theme.css"></span>
+            <span class="palate orange-color" data-theme-file="css/color-themes/orange-theme.css"></span>
+            <span class="palate purple-color" data-theme-file="css/color-themes/purple-theme.css"></span>
+            <span class="palate teal-color" data-theme-file="css/color-themes/teal-theme.css"></span>
+            <span class="palate brown-color" data-theme-file="css/color-themes/brown-theme.css"></span>
+            <span class="palate redd-color" data-theme-file="css/color-themes/redd-color.css"></span>
+        </div>
+    </div>
+	
+	<ul class="rtl-version option-box"> <li class="rtl">RTL Version</li> <li>LTR Version</li> </ul>
+	
+    <a href="#" class="purchase-btn">Purchase now $17</a>
+    
+    <div class="palate-foo">
+        <span>You will find much more options for colors and styling in admin panel. This color picker is used only for demonstation purposes.</span>
+    </div>
+
+</div>
+
+
+<!--Scroll to top-->
+<div class="scroll-to-top scroll-to-target" data-target="html"><span class="fa fa-arrow-up"></span></div>
+
+<script src="js/jquery.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+<script src="js/jquery.fancybox.js"></script>
+<script src="js/appear.js"></script>
+<script src="js/parallax.min.js"></script>
+<script src="js/tilt.jquery.min.js"></script>
+<script src="js/jquery.paroller.min.js"></script>
+<script src="js/owl.js"></script>
+<script src="js/wow.js"></script>
+<script src="js/nav-tool.js"></script>
+<script src="js/jquery-ui.js"></script>
+<script src="js/script.js"></script>
+<script src="js/color-settings.js"></script>
+
+</body>
+</html>

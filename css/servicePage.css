@@ -1,0 +1,309 @@
+.news-block-three{
+	position:relative;
+	margin-bottom:30px;
+}
+
+.news-block-three .inner-box{
+	position:relative;
+}
+
+.news-block-three .inner-box .image{
+	position:relative;
+	overflow:hidden;
+	background-color: #2b5ba800 !important;
+}
+
+.services__image__box{
+	height: 260px !important;
+}
+
+.services__image{
+	height: 260px !important;
+	/* object-fit: contain; */
+}
+
+.news-block-three .inner-box .image img{
+	position:relative;
+	width:100%;
+	display:block;
+	transition:all 0.3s ease;
+	-moz-transition:all 0.3s ease;
+	-webkit-transition:all 0.3s ease;
+	-ms-transition:all 0.3s ease;
+	-o-transition:all 0.3s ease;
+}
+
+.news-block-three .inner-box:hover .image img{
+	opacity:0.7;
+	transform:scale(1.04,1.04);
+}
+
+.news-block-three .inner-box .lower-content{
+	position:relative;
+	padding-top:25px;
+}
+
+.news-block-three .inner-box .lower-content .icon-box{
+	position:absolute;
+	left:0px;
+	top:20px;
+	transition:all 500ms ease;
+	-moz-transition:all 500ms ease;
+	-webkit-transition:all 500ms ease;
+	-ms-transition:all 500ms ease;
+	-o-transition:all 500ms ease;
+}
+
+.news-block-three .inner-box:hover .lower-content .icon-box{
+	transform:rotateY(180deg);
+}
+
+.news-block-three .inner-box .lower-content .icon-box:before{
+	position:absolute;
+	content:'';
+	left:50%;
+	top:-19px;
+	width:17px;
+	height:110px;
+	z-index:-1;
+	margin-left:-8px;
+	background:url(../images/icons/pattern-2.png) no-repeat;
+}
+
+.news-block-three .inner-box .lower-content .icon-box .icon{
+	position:relative;
+	width:70px;
+	height:70px;
+	color:#0060ff;
+	font-size:35px;
+	line-height:68px;
+	text-align:center;
+	border-radius:50px;
+	display:inline-block;
+	background-color:#ffffff;
+	border:1px solid #e1e1e1;
+}
+
+.news-block-three .inner-box .lower-content .content{
+	position:relative;
+	padding-left:100px;
+}
+
+.news-block-three .inner-box .lower-content h4{
+	position:relative;
+	line-height:1.4em;
+	font-weight:700;
+	text-align: center;
+}
+
+.news-block-three .inner-box .lower-content h4{
+	position:relative;
+	color:#141d38;
+	transition:all 0.3s ease;
+	-moz-transition:all 0.3s ease;
+	-webkit-transition:all 0.3s ease;
+	-ms-transition:all 0.3s ease;
+	-o-transition:all 0.3s ease;
+}
+
+/* .news-block-three .inner-box .lower-content h4 :hover{
+	color:#0060ff;
+} */
+
+.news-block-three .inner-box .lower-content .text{
+	position:relative;
+	line-height:1.8em;
+	font-weight:500;
+	margin-top:12px;
+	color:#555555;
+	font-size:16px;
+	margin-bottom:12px;
+}
+
+.news-block-three .inner-box .lower-content .read-more{
+	position:relative;
+	line-height:1.4em;
+	font-weight:700;
+	margin-top:12px;
+	color:#141d38;
+	font-size:14px;
+	transition:all 0.3s ease;
+	-moz-transition:all 0.3s ease;
+	-webkit-transition:all 0.3s ease;
+	-ms-transition:all 0.3s ease;
+	-o-transition:all 0.3s ease;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.news-block-three .inner-box .lower-content .read-more .arrow{
+	position:relative;
+	top:1px;
+	font-size:16px;
+	margin-left:8px;
+}
+
+.news-block-three.style-two .inner-box .lower-content{
+	padding-top:0px;
+	padding-bottom:25px;
+}
+
+
+.service__form__section{
+	position:relative;
+	padding-top:110px;
+	padding-bottom:110px;
+
+}
+
+.service__form__section .form__image__layer{
+	position:absolute;
+	left:0px;
+	top:0px;
+	right:0px;
+	height:700px;
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+
+.service__form__section .form__image__layer:before{
+	background-color:rgba(255, 255, 255, 0) !important;
+}
+
+
+.service__form__section .inner-container{
+	position:relative;
+	z-index:1;
+	padding:65px 0px;
+}
+
+.service__form__section .inner-container:before{
+	position:absolute;
+	content:'';
+	left:250px;
+	top:0px;
+	right:0px;
+	bottom:0px;
+	border-radius:10px;
+	background-color:#ffffff;
+	box-shadow:0px 0px 15px rgba(0,0,0,0.15);
+}
+
+.service__form__section .image-column{
+	position:relative;
+}
+
+.service__form__section .image-column .inner-column{
+	position:relative;
+	text-align:center;
+	padding-left:60px;
+}
+
+.service__form__section .image-column .inner-column .image{
+	position:relative;
+	border-radius:7px;
+	overflow:hidden;
+}
+
+.service__form__section .image-column .inner-column .image img{
+	width:100%;
+	display:block;
+}
+
+.service__form__section .form-column{
+	position:relative;
+}
+
+.service__form__section .form-column .inner-column{
+	position:relative;
+	padding-right:45px;
+	padding-top:0px;
+	padding-left:20px;
+}
+
+.service__form__section .form-column h4{
+	position:relative;
+	color:#141d38;
+	font-weight:600;
+	line-height:1.4em;
+	margin-bottom:30px;
+}
+
+/* Appointment Form */
+
+.appointment-form{
+	position: relative;
+	z-index:1;
+}
+
+.appointment-form .form-group{
+	position:relative;
+	margin-bottom:25px;
+}
+
+.ui-selectmenu-button.ui-button,
+.appointment-form .form-group input[type="text"],
+.appointment-form .form-group input[type="email"],
+.appointment-form .form-group input[type="tel"],
+.appointment-form .form-group input[type="url"],
+.appointment-form .form-group textarea,
+.appointment-form .form-group select{
+	position: relative;
+    display: block;
+    width: 100%;
+    font-size: 14px;
+    line-height: 20px;
+    color: #888888;
+    font-weight: 400;
+    padding: 14px 22px;
+	border-radius:4px;
+	z-index:1;
+	height:60px;
+    border: 1px solid #d7d7d7;
+    background-color: #ffffff;
+    -webkit-transition: all 300ms ease;
+    -ms-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    transition: all 300ms ease;
+}
+
+.appointment-form .form-group input:focus,
+.appointment-form .form-group select:focus,
+.appointment-form .form-group textarea:focus{
+	border-color:#0060ff;
+}
+
+
+
+.appointment-form .form-group textarea{
+	height: 150px;
+	resize: none;
+	border-radius:4px;
+}
+
+.appointment-form .form-group input[type="submit"],
+.appointment-form button{
+    margin-top:15px;
+}
+
+.appointment-form .form-group input[type="submit"]:hover,
+.appointment-form button:hover{
+	opacity: .95;
+}
+
+.appointment-form .form-group .icon{
+	position: absolute;
+	right: 15px;
+	top: 5px;
+	height: 50px;
+	width: 50px;
+	z-index:1;
+	line-height: 50px;
+	text-align: center;
+	font-size: 18px;
+	color: #0060ff;
+}
+
+.fa-square-rss{
+	font-size: 23px !important;
+}
