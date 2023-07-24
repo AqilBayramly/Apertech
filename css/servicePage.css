@@ -14,11 +14,11 @@
 }
 
 .services__image__box{
-	height: 260px !important;
+	max-height: 240px !important;
 }
 
 .services__image{
-	height: 260px !important;
+	max-height: 240px !important;
 	/* object-fit: contain; */
 }
 
@@ -147,12 +147,10 @@
 	padding-bottom:25px;
 }
 
-
 .service__form__section{
 	position:relative;
 	padding-top:110px;
 	padding-bottom:110px;
-
 }
 
 .service__form__section .form__image__layer{
@@ -272,8 +270,6 @@
 .appointment-form .form-group textarea:focus{
 	border-color:#0060ff;
 }
-
-
 
 .appointment-form .form-group textarea{
 	height: 150px;

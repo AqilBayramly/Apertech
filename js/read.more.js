@@ -1,7 +1,7 @@
  // Read more function
  function showMore(event) {
     var target = event.target;
-    var textContainer = target.parentElement.querySelector(".text");
+    var textContainer = target.parentElement.querySelector(".clients__text");
     var dots = textContainer.querySelector(".dots");
     var moreText = textContainer.querySelector(".more__text");
 
@@ -13,7 +13,7 @@
   // Read less function
   function showLess(event) {
     var target = event.target;
-    var textContainer = target.parentElement.querySelector(".text");
+    var textContainer = target.parentElement.querySelector(".clients__text");
     var dots = textContainer.querySelector(".dots");
     var moreText = textContainer.querySelector(".more__text");
 

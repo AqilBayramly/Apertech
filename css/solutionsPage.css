@@ -1,0 +1,39 @@
+.solutions__content{
+	display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+	margin-bottom: 50px;
+}
+
+.solutions__box>p{
+	max-width: 360px;
+	padding-top: 15px;
+	color: black;
+	text-align: justify;
+}
+
+.solutions__box>h4{
+	padding-top: 15px;
+	font-weight: bold;
+	color: black;
+}
+
+.solutions__top__text{
+	padding-top: 25px;
+	margin-bottom: 50px;
+	color: #000000;
+	font-weight: 600;
+}
+
+.solutions__box{
+	max-width: 360px;
+}
+
+.solutions__image{
+	width: 100%;
+	height: 200px;
+	/* object-fit: cover; */
+	background-color: white;
+	border: 1px solid rgba(0, 0, 0, 0.582);
+}

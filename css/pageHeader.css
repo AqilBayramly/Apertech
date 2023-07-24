@@ -1,10 +1,3 @@
-/*--------------------------------------------------------------
-# Header
---------------------------------------------------------------*/
-*{
-  font-family: 'Montserrat'!important;
-}
-
 #header {
     padding: 30px 0;
     height: 92px;
@@ -55,7 +48,6 @@
     position: relative;
     background-repeat: no-repeat;
   }
-
   
   #banner__image:before {
     content: "";
@@ -86,15 +78,14 @@
     /* margin: 30px 0 10px 0; */
     font-size: 48px;
     font-weight: 700;
-    line-height: 56px;
     text-transform: uppercase;
     color: #fff;
   }
 
   #banner__image p {
     color: #eee;
-    /* margin-bottom: 50px; */
     font-size: 24px;
+
   }
 
   
@@ -114,20 +105,37 @@
     top: 100%;
     left: 0;
     z-index: 99;
-
   }
   
   .nav-menu li {
     position: relative;
     white-space: nowrap;
-
   }
   
   .nav-menu > li {
     float: left;
-    color: red !important;
-
   }
+
+  .dropdown__top{
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+
+  .dropdown__top >a{
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+
+  .dropdown__bottom{
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+  }
+
+  .dropdown__bottom>a{
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+  }
+  
   
   .nav-menu li:hover > ul,
   .nav-menu li.sfHover > ul {
@@ -175,7 +183,7 @@
     text-decoration: none;
     display: inline-block;
     color: #fff;
-    font-family: "Poppins", sans-serif;
+	  font-family: 'Montserrat' !important;
     font-weight: 400;
     text-transform: uppercase;
     font-size: 13px;
@@ -477,6 +485,8 @@
 	margin-bottom: 0px;
 	text-transform:uppercase;
 	white-space: nowrap;
+	font-family: 'Montserrat' !important;
+
 }
 
 .page-breadcrumb{
@@ -688,27 +698,21 @@
   }
 
   #banner__image p {
-    width: 450px;
     font-size: 12px !important;
   }
 
   .banner__image-container {
     top: 65%;
   }
+
+  #banner__image p {
+    width: 300px;
+  }
 }
 
 @media only screen and (max-width: 500px) {
   #banner__image h1 {
     font-size: 18px;
-  }
-
-  #banner__image p {
-    width: 450px;
-    font-size: 12px !important;
-  }
-
-  .banner__image-container {
-    top: 68%;
   }
 }
 
@@ -721,19 +725,34 @@
     font-size: 11px;
   }
 
-  .banner__image-container {
-    top: 68%;
-  }
 
   .page__header__title h2{
     font-size: 31px;
   }
+
+  #header #header__logo img {
+    max-height: 50px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  #banner__image {
+    width: 100%;
+    height: 280px;
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+  }
+
+  #banner__image >img {
+    height: 280px;
+  }
+
 }
 
 @media only screen and (max-width: 420px) {
   #mobile-nav-toggle {
     right: 53px;
-    top: 28px;
   }
 
   .page__header__title h2{
