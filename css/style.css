@@ -1147,22 +1147,21 @@ img{
 }
 
 .about-section .images-column .inner-column{
-	/* background-image: url("../images/icons/globe.png"); */
 	position:relative;
 	padding:50px 0px;
 	text-align:center;
 	background-position:center center;
 	background-repeat:no-repeat;
 	object-fit: contain;
-
+	width:675px;
 }
 
 .about-section .images-column .pattern-layer{
+	/* background-image: url("../images/icons/globe.png"); */
 	position:absolute;
-    top: 0px;
-    left: 0px;
+    top: -60px;
+    left: -30px;
 	width:675px;
-	height:532px;
 	background-repeat:no-repeat;
 	object-fit: contain;
 }
@@ -1584,7 +1583,9 @@ img{
 	position:relative;
 	overflow:hidden;
 	padding:85px 0px;
-	background-position:center center;
+	background-image: url("/images/homePage/amazonai-hiring-banner-1440x425.jpg");
+	background-size: cover;
+	background-position:center;
 	background-repeat:no-repeat;
 }
 
@@ -3147,19 +3148,6 @@ img{
     margin: 65px;
     background-color: #ddd;
     border-radius: 50%;
-}
-
-/***
-
-====================================================================
-	Services Page Section
-====================================================================
-
-***/
-
-.services-page-section{
-	position:relative;
-	padding:110px 0px 70px;
 }
 
 /***

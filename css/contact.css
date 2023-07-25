@@ -223,12 +223,10 @@
 	cursor: pointer;
 }
 
-
 .error-message{
 	color: rgb(204, 53, 53);
 	font-size: 0.9rem;
 }
-
 
 .error-message2{
 	color: rgb(204, 53, 53);
@@ -238,3 +236,18 @@
 .label__star{
 	color: red;
 }
+
+
+@media only screen and (max-width: 965px) {
+	#mobile-nav-toggle {
+		right: 43px !important;
+		top: 14px !important;
+	  }
+  }
+
+  @media only screen and (max-width: 620px) {
+	#mobile-nav-toggle {
+		right: 33px !important;
+		top: 14px !important;
+	  }
+  }

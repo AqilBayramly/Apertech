@@ -1,3 +1,15 @@
+/***
+
+====================================================================
+	Services Page Section
+====================================================================
+
+***/
+
+.services-page-section{
+	position:relative;
+	padding:40px 0px 70px;
+}
 .news-block-three{
 	position:relative;
 	margin-bottom:30px;
@@ -19,7 +31,17 @@
 
 .services__image{
 	max-height: 240px !important;
-	/* object-fit: contain; */
+}
+
+.services__box__text{
+	text-align: justify;
+	hyphens: auto;
+}
+
+.boxes__title__text{
+	color: black;
+	font-weight: 600;
+	padding-bottom: 20px;
 }
 
 .news-block-three .inner-box .image img{
@@ -307,3 +329,44 @@
 .form__title{
 	color: black !important;
 }
+
+
+
+  @media only screen and (max-width: 965px) {
+	#mobile-nav-toggle {
+		right: 43px !important;
+		top: 14px !important;
+	  }
+  }
+
+  @media only screen and (max-width: 620px) {
+	#mobile-nav-toggle {
+		right: 33px !important;
+		top: 14px !important;
+	  }
+  }
+
+  @media only screen and (max-width: 835px) {
+	.services__image__box{
+		max-height: 200px !important;
+	}
+	
+	.services__image{
+		max-height: 200px !important;
+	}
+  }
+  
+  @media only screen and (max-width: 835px) {
+.fdfdsdf{
+	display: flex;
+	justify-content: center;
+}
+
+.services__image__box{
+	max-height: 240px !important;
+}
+
+.services__image{
+	max-height: 240px !important;
+}
+  }
