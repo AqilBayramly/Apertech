@@ -33,7 +33,7 @@ function sendMail() {
       if (params.email === "") {
         document.getElementById("contactEmail").style.border = "1px solid red";
         showError("contactEmail", "This field is required");
-      } else if (!isValidEmailWithIndexOf(params.email)) {
+      } else if (!isValidEmailWithDomainCheck(params.email)) {
 
         document.getElementById("contactEmail").style.border = "1px solid red";
         showError("contactEmail", "Please enter a valid email address");
@@ -149,9 +149,25 @@ function removeError(fieldId) {
 }
 
 // Function to validate email address using indexOf
-function isValidEmailWithIndexOf(email) {
+// function isValidEmailWithDomainCheck(email) {
+//   const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+//   return emailRegex.test(email);
+// }
+
+function isValidEmailWithDomainCheck(email) {
   const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-  return emailRegex.test(email);
+  const allowedDomains = ['mail.ru', 'gmail.com', 'inbox.ru', 'bk.ru', 'list.ru', 'internet.ru', 'yandex.ru', 'yahoo.com', 'hotmail.com', 'outlook.com'];
+
+  if (!emailRegex.test(email)) {
+    return false;
+  }
+
+  const domain = email.split('@')[1];
+  if (!allowedDomains.includes(domain)) {
+    return false;
+  }
+
+  return true;
 }
 
 function isValidNumber(number) {
@@ -177,3 +193,22 @@ phoneNumberInput.addEventListener('input', function(event) {
   event.target.value = numericValue;
 
 });
+
+const textarea = document.getElementById('msg');
+textarea.addEventListener('input', validateTextarea);
+
+function validateTextarea() {
+  const message = textarea.value.trim();
+  const wordCount = message === '' ? 0 : message.split(/\s+/).length;
+
+  // Update the word count display
+  const wordCountMessage = document.getElementById('wordCountMessage');
+  wordCountMessage.textContent = `Word count: ${wordCount}`;
+
+  // Check if the textarea contains at least 100 words
+  if (wordCount < 100) {
+    textarea.setCustomValidity('Please enter at least 100 words.');
+  } else {
+    textarea.setCustomValidity('');
+  }
+}

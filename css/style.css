@@ -109,7 +109,7 @@ h6{
 .auto-container{
 	position:static;
 	max-width:70%;
-	padding:0px 15px;
+	/* padding:0px 15px; */
 	margin:0 auto;
 }
 
@@ -436,9 +436,8 @@ img{
 .sec-title .title{
 	position:relative;
 	color:#0060ff;
-	font-size:16px;
+	font-size:18px;
 	font-weight:700;
-	text-transform:uppercase;
 	font-family: 'Montserrat', sans-serif;
 }
 
@@ -1582,7 +1581,7 @@ img{
 ***/
 
 .call-to-action-section{
-	margin-top: 250px;
+	margin-top: 170px;
 	margin-bottom: 150px;
 	position:relative;
 	overflow:hidden;
@@ -2035,7 +2034,6 @@ img{
 	font-weight:700;
 	color:#ffffff;
 	font-size:16px;
-	text-transform:uppercase;
 }
 /***
 
@@ -2690,7 +2688,6 @@ img{
 	font-weight:700;
 	line-height:1.2em;
 	margin-bottom: 0px;
-	text-transform:uppercase;
 	white-space: nowrap;
 }
 

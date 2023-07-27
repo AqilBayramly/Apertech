@@ -16,11 +16,12 @@
 
     .container {
       max-width: 70%;
+      padding-right: 0px !important;
+    padding-left: 0px !important;
       margin: 0 auto;
       display: flex;
       align-items: center;
       justify-content: space-between;
-      /* padding:0px 15px; */
     }
   
     #header #header__logo {
@@ -79,7 +80,6 @@
     /* margin: 30px 0 10px 0; */
     font-size: 48px;
     font-weight: 700;
-    text-transform: uppercase;
     color: #fff;
   }
 
@@ -154,7 +154,7 @@
   
   /* Nav Menu Arrows */
   .sf-arrows .sf-with-ul {
-    padding-right: 30px;
+    padding-right: 34px;
   }
   
   .sf-arrows .sf-with-ul:after {
@@ -186,8 +186,7 @@
     color: #fff;
 	  font-family: 'Montserrat' !important;
     font-weight: 400;
-    text-transform: uppercase;
-    font-size: 13px;
+    font-size: 16px;
     outline: none;
   }
   
@@ -274,7 +273,6 @@
   .fa-chevron-down:hover {
     color: #1e72fa !important;
 }
-
 
 .learn__btn{
 	position: relative;
@@ -484,7 +482,6 @@
 	font-weight:700;
 	line-height:1.2em;
 	margin-bottom: 0px;
-	text-transform:uppercase;
 	white-space: nowrap;
 	font-family: 'Montserrat' !important;
 
@@ -553,9 +550,26 @@
 }
 
 
-@media only screen and (max-width: 1470px) {
+@media only screen and (max-width: 1521px) {
   #nav-menu-container {
-    gap:5px;
+    gap:3px;
+  }
+
+  .container{
+    max-width:72%;
+  }
+
+  .auto-container{
+    max-width:72%;
+  }
+
+  .btn-style-one{
+    font-size: 13px;
+    padding: 8px 12px;
+  }
+
+  .nav-menu a {
+    padding: 0 5px 10px 0px;
   }
 }
 
@@ -572,7 +586,7 @@
 @media only screen and (max-width: 1295px) {
   .nav-menu a {
     padding: 0 8px 10px 0px;
-    font-size: 13px;
+    font-size: 15px;
   }
 
   .container{
@@ -608,11 +622,11 @@
   }
 
     .nav-menu a {
-    font-size: 12px;
+    font-size: 14px;
   }
 
   .btn-style-one{
-    font-size: 12px;
+    font-size: 13px;
     padding: 8px 12px;
   }
 
