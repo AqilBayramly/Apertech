@@ -9,9 +9,8 @@
   }
 
 .homepage__clients__content{
-    max-width: 70%;
-    margin: 0 auto;
     margin-top: 70px;
+
 }
 
 .homepage__clients__content>h3{
@@ -22,8 +21,6 @@
 }
 
 .homepage__partners__content{
-    max-width: 70%;
-    margin: 0 auto;
     margin-top: 100px;
 }
 
@@ -31,6 +28,7 @@
     text-align: center;
     color: black;
     font-weight: bold;
+    margin-bottom: 20px;
 }
 
 .all__card__partners{
@@ -44,11 +42,10 @@
     display: none;
 }
 
-.card {
+.clients__box__card {
     position: relative;
     width: 300px;
     height: 200px;
-    background-size: contain;
     /* background-color: #f2f2f2; */
     background-color: white;
     border-radius: 10px;
@@ -60,14 +57,19 @@
     transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   }
   
-  .card img {
+  .clients__box__card img {
     width: 300px;
     height: 200px;
+    object-fit: contain;
     fill: #333;
     transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   }
   
-  .card:hover {
+.other__style__img img{
+  object-fit: cover !important;
+}
+
+  .clients__box__card:hover {
     transform: scale(1.05);
     box-shadow: 0 8px 16px rgba(255, 255, 255, 0.2);
   }
@@ -87,7 +89,7 @@
     transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   }
   
-  .card:hover .card__content {
+  .clients__box__card:hover .card__content {
     transform: rotateX(0deg);
   }
   
@@ -99,7 +101,7 @@
     text-align: center;
   }
   
-  .card:hover img {
+  .clients__box__card:hover img {
     scale: 0;
   }
   
@@ -111,8 +113,231 @@
   }
 
 
+/***
+
+====================================================================
+	Services Section
+====================================================================
+
+***/
+
+.services-section{
+	margin-top: 100px !important;
+	position:relative;
+	padding:60px 0px 60px;
+	background-color:#141d38;
+}
+
+.services-section.margin-top{
+	margin-top:-65px;
+}
+
+.services-section .pattern-layer{
+	position:absolute;
+	right:0px;
+	top:0px;
+	width:100%;
+	height:100%;
+	display:block;
+	background-repeat:no-repeat;
+	background-position:right top;
+}
 
 
+  /* Service Block Two */
+
+.service-block-two{
+	position:relative;
+	z-index:1;
+	margin-bottom:30px;
+}
+
+.service-block-two .inner-box{
+	position:relative;
+	overflow:hidden;
+	padding:40px 40px;
+	height: 320px;
+	border-radius:6px;
+	background-color:#f5f5f5;
+}
+
+.service-block-two .inner-box .shape-one{
+	content: '';
+    width: 250px;
+    height: 250px;
+    background: #0060ff;
+    border-radius: 50%;
+    position: absolute;
+    top: -120px;
+	opacity:0.4;
+    right: -120px;
+    transform: scale(0);
+	-webkit-transition:all 600ms ease;
+	-moz-transition:all 600ms ease;
+	-ms-transition:all 600ms ease;
+	-o-transition:all 600ms ease;
+	transition:all 600ms ease;
+}
+
+.service-block-two .inner-box:hover .shape-one{
+	transform: scale(1);
+	webkit-transition-delay:300ms;
+	-ms-transition-delay:300ms;
+	transition-delay:300ms;
+}
+
+.service-block-two .inner-box .shape-two{
+	content: '';
+    width: 373px;
+    height: 373px;
+    background: #0060ff;
+    border-radius: 50%;
+    position: absolute;
+    top: -180px;
+    right: -180px;
+    z-index: 1;
+	opacity: 0;
+	transform: scale(0);
+	-webkit-transition:all 600ms ease;
+	-moz-transition:all 600ms ease;
+	-ms-transition:all 600ms ease;
+	-o-transition:all 600ms ease;
+	transition:all 600ms ease;
+}
+
+.service-block-two .inner-box:hover .shape-two{
+    opacity: 0.4;
+	transform: scale(1);
+	webkit-transition-delay:600ms;
+	-ms-transition-delay:600ms;
+	transition-delay:600ms;
+}
+
+.service-block-two .inner-box:before{
+	position:absolute;
+	content:'';
+	left:0px;
+	bottom:0px;
+	width:100%;
+	height:50%;
+	opacity:0;
+	background-color:#141d38;
+	-webkit-transition:all 600ms ease;
+	-ms-transition:all 600ms ease;
+	-o-transition:all 600ms ease;
+	-moz-transition:all 600ms ease;
+	transition:all 600ms ease;
+}
+
+.service-block-two .inner-box:hover::before{
+	height:100%;
+	opacity:1;
+}
+
+.service-block-two .inner-box .icon-box{
+	position:relative;
+	z-index:2;
+}
+
+.service-block-two .inner-box .icon-box{
+	position:relative;
+	font-size:65px;
+	line-height:1em;
+	color:#0060ff;
+	-webkit-transition:all 300ms ease;
+	-ms-transition:all 300ms ease;
+	-o-transition:all 300ms ease;
+	-moz-transition:all 300ms ease;
+	transition:all 300ms ease;
+}
+
+.service-block-two .inner-box .icon-box .icon{
+	position:relative;
+}
+
+.service-block-two .inner-box h5{
+	position:relative;
+	z-index:2;
+	color:#222222;
+	font-weight:600;
+	line-height:1.3em;
+	margin:20px 0px 15px;
+}
+
+.service-block-two .inner-box h5 a{
+	position:relative;
+	color:#222222;
+	transition:all 300ms ease;
+	-webkit-transition:all 300ms ease;
+	-ms-transition:all 300ms ease;
+	-o-transition:all 300ms ease;
+}
+
+
+.service-block-two .inner-box .text{
+	position:relative;
+	color:#222222;
+	z-index:2;
+	font-size:16px;
+	line-height:1.8em;
+	-webkit-transition:all 300ms ease;
+	-ms-transition:all 300ms ease;
+	-o-transition:all 300ms ease;
+	-moz-transition:all 300ms ease;
+	transition:all 300ms ease;
+}
+
+.service-block-two .inner-box:hover .icon-box,
+.service-block-two .inner-box:hover h5 a,
+.service-block-two .inner-box:hover .text{
+	color:#ffffff;
+}
+
+
+/***
+
+====================================================================
+	Call To Action Section
+====================================================================
+
+***/
+
+.call-to-action-section{
+	margin-top: 170px;
+	margin-bottom: 150px;
+	position:relative;
+	overflow:hidden;
+	padding:85px 0px;
+	background-image: url("/images/homePage/amazonai-hiring-banner-1440x425.jpg");
+	background-size: cover;
+	background-position:center;
+	background-repeat:no-repeat;
+}
+
+.call-to-action-section .heading-column{
+	position:relative;
+}
+
+.call-to-action-section .heading-column .inner-column{
+	position:relative;
+}
+
+.call-to-action-section .heading-column h2{
+	position:relative;
+	color:#ffffff;
+	line-height:1.3em;
+	font-weight:700;
+}
+
+.call-to-action-section .button-column{
+	position:relative;
+}
+
+.call-to-action-section .button-column .inner-column{
+	position:relative;
+	text-align:right;
+	padding-top:20px;
+}
 
   .flow > * + * {
     margin-top: var(--flow-space, 1em);
@@ -139,7 +364,6 @@
     justify-content: space-evenly;
     flex-wrap: wrap;
     margin-top: 20px;
-    gap: 3px;
   }
 
   .sector__cards2{
@@ -147,7 +371,6 @@
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    gap: 3px;
   }
   
   .sector__card > * {
@@ -174,8 +397,8 @@
     flex-direction: column;
     justify-content: space-between;
     align-self: flex-end;
-    height: 85%;
-    padding: 12% 1.25rem 1.875rem;
+    height: 100%;
+    padding: 10% 1.25rem 1.875rem;
     background: linear-gradient(
       180deg,
       hsla(0, 0%, 0%, 0) 0%,
@@ -226,7 +449,7 @@
     outline: 2px solid black;
     outline-offset: -5px;
   }
-  
+
   @media (any-hover: hover) and (any-pointer: fine) {
     .sector__card__content {
       transform: translateY(55%);
@@ -297,10 +520,6 @@
 
 
 
-
-
-  
-
   @media only screen and (max-width: 1800px) {
     .sector__card {
 
@@ -323,6 +542,19 @@
       }
 }
 
+@media only screen and (max-width: 1480px) {
+  .sector__card {
+      max-width: 30rem;
+      max-height: 25rem;
+    }
+}
+
+@media only screen and (max-width: 1350px) {
+  .sector__card {
+      max-width: 29rem;
+      max-height: 24rem;
+    }
+}
 
 @media only screen and (max-width: 1315px) {
     .about-section .images-column .inner-column{
@@ -335,6 +567,13 @@
         left: -50px;
         width:675px;
         background-repeat:no-repeat;
+    }
+}
+
+@media only screen and (max-width: 1240px) {
+  .sector__card {
+      max-width: 28rem;
+      max-height: 23rem;
     }
 }
 
@@ -352,6 +591,13 @@
     }
 }
 
+@media only screen and (max-width: 1130px) {
+  .sector__card {
+      max-width: 27rem;
+      max-height: 22rem;
+    }
+}
+
 @media only screen and (max-width: 1100px) {
     .about-section .images-column .inner-column{
         padding:50px 0px;
@@ -363,6 +609,13 @@
         left: -70px;
         width:625px;
         background-repeat:no-repeat;
+    }
+}
+
+@media only screen and (max-width: 1040px) {
+  .sector__card {
+      max-width: 26rem;
+      max-height: 21rem;
     }
 }
 
@@ -391,6 +644,16 @@
         width:605px;
         background-repeat:no-repeat;
     }
+}
+
+@media only screen and (max-width: 974px) {
+  .sector__cards{
+    gap: 10px;
+  }
+
+  .sector__cards2{
+    gap: 10px;
+  }
 }
 
 @media only screen and (max-width: 735px) {
@@ -456,6 +719,10 @@
         top: -25px;
         left: -80px;
         width:400px;
+    }
+    .sector__card {
+      max-width: 26rem;
+      height: 21rem;
     }
 }
 
