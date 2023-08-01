@@ -126,7 +126,7 @@
 }
 
 .cover__image{
-	object-fit: cover;
+	object-fit: cover !important;
 }
 
 .partner__image{

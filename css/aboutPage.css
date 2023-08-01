@@ -1,3 +1,144 @@
+/***
+
+====================================================================
+	About Section
+====================================================================
+
+***/
+
+.about-section{
+	position:relative;
+	overflow:hidden;
+	padding:80px 0px 100px;
+}
+
+.about-section .content-column{
+	position:relative;
+	margin-bottom:40px;
+	padding-left: 0px !important;
+	text-align: center;
+}
+
+.about-section .sec-title{
+	margin-bottom:25px;
+}
+
+.about-section .content-column .inner-column{
+	position:relative;
+	/* padding-right:30px; */
+}
+
+.about-section .content-column .text{
+	position:relative;
+	color:black;
+	font-size:16px;
+	line-height:1.8em;
+	font-weight:500;
+	margin-bottom:10px;
+}
+
+.about-section .content-column .blocks-outer{
+	position:relative;
+	margin-bottom:50px;
+}
+
+.feature-block{
+	position:relative;
+	margin-bottom:35px;
+	margin-top: 45px;
+}
+
+.feature-block:last-child{
+	margin-bottom:0px;
+}
+
+.feature-block .inner-box{
+	position:relative;
+	padding-left:70px;
+}
+
+.feature-block .inner-box .icon{
+	position:absolute;
+	left:0px;
+	top:2px;
+	color:#0060ff;
+	font-size:48px;
+	line-height:1em;
+}
+
+.feature-block .inner-box h6{
+	position:relative;
+	color:#141d38;
+	font-size:18px;
+	font-weight:600;
+}
+
+.feature-block .inner-box .feature-text{
+	position:relative;
+	color:#555555;
+	font-size:16px;
+	margin-top:5px;
+}
+
+.globus__content{
+	display: flex;
+}
+
+.about-section .images-column{
+	position:relative;
+	margin-bottom:40px;
+	display: flex;
+	flex-direction: column;
+}
+
+.about-section .images-column .inner-column{
+	position:relative;
+	padding:50px 0px;
+	text-align:center;
+	background-position:center center;
+	background-repeat:no-repeat;
+	width:675px;
+}
+
+.about-section .images-column .pattern-layer{
+	/* background-image: url("../images/icons/globe.png"); */
+	position:absolute;
+    top: -60px;
+    left: -15px;
+	width:675px;
+	background-repeat:no-repeat;
+}
+
+.about-section .images-column .learn{
+	position:relative;
+	margin-top: 50px;
+	color:#0060ff;
+	font-weight:700;
+	font-size:16px;
+	display:inline-block;
+	transition:all 500ms ease;
+	-moz-transition:all 500ms ease;
+	-webkit-transition:all 500ms ease;
+	-ms-transition:all 500ms ease;
+	-o-transition:all 500ms ease;
+}
+
+.about-section .images-column .learn:hover{
+	color:#222222;
+}
+
+.about-section .images-column .learn .arrow{
+	position:relative;
+	margin-right:8px;
+	top:1px;
+}
+
+.about__section__two__image{
+	/* height: 550px !important; */
+	width: 100%;
+	padding-top: 90px;
+}
+
 
 /***
 
@@ -159,6 +300,103 @@
 	width: 100%;
 	padding-top: 90px;
 }
+
+
+/***
+
+====================================================================
+	Counter Section
+====================================================================
+
+***/
+
+.counter-section{
+	position:relative;
+	overflow:hidden;
+	z-index:1;
+}
+
+.counter-section .inner-container{
+	position:relative;
+	padding:60px 0px 30px 60px;
+}
+
+.counter-section .inner-container:before{
+	position:absolute;
+	content:'';
+	left:0px;
+	top:0px;
+	right:-200px;
+	bottom:0px;
+	border-radius:15px;
+	background-color:#e7f0ff;
+}
+
+/* Fact Counter */
+
+.fact-counter{
+	position:relative;
+}
+
+.fact-counter .column{
+	position:relative;
+	margin-bottom:30px;
+}
+
+.fact-counter .column .inner{
+	position:relative;
+}
+
+.fact-counter .column .inner .content{
+	position:relative;
+	text-align:center;
+}
+
+.fact-counter .column .inner .icon{
+	position:absolute;
+	left:0px;
+	top:10px;
+	color:#bbbbbb;
+	font-size:60px;
+	text-align:center;
+	line-height:1em;
+	font-weight: 400;
+	margin-bottom:0px;
+	transition:all 0.3s ease;
+	-moz-transition:all 0.3s ease;
+	-webkit-transition:all 0.3s ease;
+	-ms-transition:all 0.3s ease;
+	-o-transition:all 0.3s ease;
+}
+
+.fact-counter .count-outer .percentage{
+	display:inline-block;
+	font-weight:600;
+	color:#ffffff;
+	font-size:54px;
+	line-height:1em;
+}
+
+.fact-counter .column .inner .count-outer{
+	position:relative;
+	font-weight:600;
+	color:#0e0a31;
+	font-size:48px;
+	line-height:1em;
+	font-weight:700;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.fact-counter .column .inner .counter-title{
+	position:relative;
+	font-size:16px;
+	font-weight:600;
+	margin-top:10px;
+	color:#0060ff;
+}
+
+
+
 
 /***
 

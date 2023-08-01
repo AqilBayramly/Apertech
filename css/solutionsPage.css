@@ -30,6 +30,10 @@
 	border: 1px solid rgba(0, 0, 0, 0.582);
 } */
 
+h2{
+	color: black;
+}
+
 .solutions__top__text{
 	padding-top: 25px;
 	margin-bottom: 50px;
@@ -37,16 +41,20 @@
 	font-weight: 600;
 }
 
+.solution__box__image{
+	margin-top: 15px;
+}
+
 .solution__box__image>img{
-	width: 317px;
-	max-height: 180px;
+	max-width: 142px;
+	max-height: 142px;
 }
 
 .solution__box{
     display: flex;
 	justify-content: space-between;
     flex-wrap: wrap;
-	align-items: center;
+	/* align-items: center; */
 	padding-top: 70px;
 	padding-bottom: 50px;
 }

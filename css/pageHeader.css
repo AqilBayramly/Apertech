@@ -446,6 +446,7 @@
 .page__header__title >div > img {
 	width: 100%;
 	min-height: 380px;
+	max-height: 350px;
 	object-fit: cover;
 	background-position: center;
 	
@@ -513,7 +514,7 @@
 	color:#ffffff;
 	font-size:14px;
 	font-weight:700;
-	font-family: 'FontAwesome';
+	font-family: 'Montserrat' !important;
 }
 
 .page-breadcrumb li:last-child::after{
@@ -538,7 +539,7 @@
 }
 
 .page-breadcrumb li a:hover{
-	color:#1e72fa !important;
+	color:#000000ab !important;
 }
 
 .swiper-button-next{

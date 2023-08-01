@@ -248,6 +248,96 @@
 	margin-bottom:30px;
 }
 
+/***
+
+====================================================================
+	Appointment Section Two
+====================================================================
+
+***/
+
+.appointment-section{
+	position:relative;
+	padding-top:110px;
+}
+
+.appointment-section.style-two{
+	padding-bottom:110px;
+}
+
+.appointment-section .image-layer{
+	position:absolute;
+	left:0px;
+	top:0px;
+	right:0px;
+	height:700px;
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+
+.appointment-section .image-layer:before{
+	background-color:rgba(255, 255, 255, 0) !important;
+}
+
+
+.appointment-section .inner-container{
+	position:relative;
+	z-index:1;
+	padding:65px 0px;
+}
+
+.appointment-section .inner-container:before{
+	position:absolute;
+	content:'';
+	left:250px;
+	top:0px;
+	right:0px;
+	bottom:0px;
+	border-radius:10px;
+	background-color:#ffffff;
+	box-shadow:0px 0px 15px rgba(0,0,0,0.15);
+}
+
+.appointment-section .image-column{
+	position:relative;
+}
+
+.appointment-section .image-column .inner-column{
+	position:relative;
+	text-align:center;
+	padding-left:60px;
+}
+
+.appointment-section .image-column .inner-column .image{
+	position:relative;
+	border-radius:7px;
+	overflow:hidden;
+}
+
+.appointment-section .image-column .inner-column .image img{
+	width:100%;
+	display:block;
+}
+
+.appointment-section .form-column{
+	position:relative;
+}
+
+.appointment-section .form-column .inner-column{
+	position:relative;
+	padding-right:45px;
+	padding-top:0px;
+	padding-left:20px;
+}
+
+.appointment-section .form-column h4{
+	position:relative;
+	color:#141d38;
+	font-weight:600;
+	line-height:1.4em;
+	margin-bottom:30px;
+}
+
 /* Appointment Form */
 
 .appointment-form{
