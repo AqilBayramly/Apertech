@@ -70,8 +70,8 @@ h2{
 .solution__box__right p {
 	max-width: 780px;
     color: black!important;
+	text-align: justify;
 }
-
 
 .solution__link{
     box-shadow: inset 0 1px 0 0 hsla(0,0%,60%,.16);

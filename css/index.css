@@ -356,7 +356,6 @@
   .title__card{
     margin-top: 50px;
     color: black;
-    text-align: center;
   }
 
   .sector__cards{
@@ -519,7 +518,6 @@
 
 
 
-
   @media only screen and (max-width: 1800px) {
     .sector__card {
 
@@ -556,20 +554,6 @@
     }
 }
 
-@media only screen and (max-width: 1315px) {
-    .about-section .images-column .inner-column{
-        padding:50px 0px;
-        width:575px;
-    }
-    
-    .about-section .images-column .pattern-layer{
-        top: -60px;
-        left: -50px;
-        width:675px;
-        background-repeat:no-repeat;
-    }
-}
-
 @media only screen and (max-width: 1240px) {
   .sector__card {
       max-width: 28rem;
@@ -577,38 +561,10 @@
     }
 }
 
-@media only screen and (max-width: 1165px) {
-    .about-section .images-column .inner-column{
-        padding:50px 0px;
-        width:515px;
-    }
-    
-    .about-section .images-column .pattern-layer{
-        top: -50px;
-        left: -60px;
-        width:645px;
-        background-repeat:no-repeat;
-    }
-}
-
 @media only screen and (max-width: 1130px) {
   .sector__card {
       max-width: 27rem;
       max-height: 22rem;
-    }
-}
-
-@media only screen and (max-width: 1100px) {
-    .about-section .images-column .inner-column{
-        padding:50px 0px;
-        width:495px;
-    }
-    
-    .about-section .images-column .pattern-layer{
-        top: -40px;
-        left: -70px;
-        width:625px;
-        background-repeat:no-repeat;
     }
 }
 
@@ -628,33 +584,6 @@
   .swiper__wrapper2{
     margin-left: 10px;
   }
-}
-
-@media only screen and (max-width: 992px) {
-    .globus__content{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    
-    .about-section .images-column{
-        display: flex !important;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .about-section .images-column .inner-column{
-        width:405px;
-        display: flex !important;
-        justify-content: center !important;
-    }
-    
-    .about-section .images-column .pattern-layer{
-        top: -40px;
-        left: -120px;
-        width:605px;
-        background-repeat:no-repeat;
-    }
 }
 
 @media only screen and (max-width: 974px) {
@@ -678,85 +607,11 @@
   }
 }
 
-@media only screen and (max-width: 735px) {
-    .about-section .images-column{
-        display: flex !important;
-    }
-
-    .about-section .images-column .inner-column{
-        width:350px;
-    }
-    
-    .about-section .images-column .pattern-layer{
-        top: -40px;
-        left: -120px;
-        width:565px;
-        background-repeat:no-repeat;
-    }
-}
-
-@media only screen and (max-width: 645px) { 
-    .about-section .images-column .inner-column{
-        width:310px;
-    }
-    
-    .about-section .images-column .pattern-layer{
-        top: -40px;
-        left: -100px;
-        width:485px;
-        background-repeat:no-repeat;
-    }
-}
-
-@media only screen and (max-width: 550px) {
-    .about-section .images-column .inner-column{
-        width:290px;
-    }
-    
-    .about-section .images-column .pattern-layer{
-        top: -40px;
-        left: -100px;
-        width:465px;
-    }
-}
-
-@media only screen and (max-width: 520px) {
-    .about-section .images-column .inner-column{
-        width:270px;
-    }
-    
-    .about-section .images-column .pattern-layer{
-        top: -40px;
-        left: -100px;
-        width:450px;
-    }
-}
 
 @media only screen and (max-width: 485px) {
-    .about-section .images-column .inner-column{
-        width:250px;
-    }
-    
-    .about-section .images-column .pattern-layer{
-        top: -25px;
-        left: -80px;
-        width:400px;
-    }
     .sector__card {
       max-width: 26rem;
       height: 21rem;
-    }
-}
-
-@media only screen and (max-width: 445px) {
-    .about-section .images-column .inner-column{
-        width:220px;
-    }
-    
-    .about-section .images-column .pattern-layer{
-        top: -10px;
-        left: -65px;
-        width:340px;
     }
 }
 
@@ -771,18 +626,6 @@
   }
 }
 
-@media only screen and (max-width: 415px) {
-    .about-section .images-column .inner-column{
-        width:200px;
-    }
-    
-    .about-section .images-column .pattern-layer{
-        top: 0px;
-        left: -50px;
-        width:300px;
-    }
-}
-
 @media only screen and (max-width: 375px) {
   .mySwiper2{
     max-width: 100%;
@@ -791,6 +634,13 @@
 
   .swiper__wrapper2{
     margin-left: 17px;
+  }
+
+  .card__description {
+    margin: 10px 0 0;
+    font-size: 14px;
+    color: black;
+    padding-left: 3px;
   }
 }
 

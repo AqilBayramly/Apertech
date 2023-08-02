@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Welcome to APERTECH Solutions website!</title>
+<title>Welcome to APERTECH Solutions Website</title>
 <!-- Stylesheets -->
 <link href="css/bootstrap.css" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet">
@@ -68,6 +68,7 @@
 			  <li><a href="html/partners&clients.html">Partners & Clients</a></li>
 			  <li><a href="html/contact.html">Contact Us</a></li>
 			</ul>
+
 			<div class="btn-box">
 				<a href="html/consulting.html" class="theme-btn btn-style-one"><span class="txt">Free Consulting</span></a>
 			</div>
@@ -141,7 +142,7 @@
 
 	<!-- About Section -->
 	<div class="auto-container">
-		<h3 class="title__card">Our product is used in industries such as:</h3>
+		<h3 class="title__card">Our Products are used in industries such as:</h3>
 		<div class="sector__cards">
 			<div class="sector__card">
 					<img
@@ -151,7 +152,7 @@
 					  width="1920"
 					  height="2193"
 					/>
-					<div class="sector__card__content flow">
+					<div class="sector__card__content flow searchable-element">
 					  <div class="sector__card__content--container flow">
 						<h2 class="sector__card__title">Construction</h2>
 						<p class="sector__card__description">
@@ -205,6 +206,41 @@
 				<div class="sector__card__content flow">
 					<div class="sector__card__content--container flow">
 						<h2 class="sector__card__title">Financial</h2>
+						<p class="sector__card__description">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum in
+							labore laudantium deserunt fugiat numquam.
+						</p>
+					</div>
+					<!-- <button class="sector__card__button">Read more</button> -->
+				</div>
+			</div>
+
+		</div>
+
+		<div class="sector__cards2">
+			<div class="sector__card">
+				<img class="sector__card__background" src="images/homePage/govbydesign_1536x1152.jpg"
+					alt="" width="1920"
+					height="2193" />
+				<div class="sector__card__content flow">
+					<div class="sector__card__content--container flow">
+						<h2 class="sector__card__title"> Government sectors</h2>
+						<p class="sector__card__description">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum in
+							labore laudantium deserunt fugiat numquam.
+						</p>
+					</div>
+					<!-- <button class="sector__card__button">Read more</button> -->
+				</div>
+			</div>
+			
+			<div class="sector__card">
+				<img class="sector__card__background" src="images/homePage/shutterstock_1544174009-scaled-1.jpg"
+					alt="Photo of Cartagena's cathedral at the background and some colonial style houses" width="1920"
+					height="2193" />
+				<div class="sector__card__content flow">
+					<div class="sector__card__content--container flow">
+						<h2 class="sector__card__title">Hospitality</h2>
 						<p class="sector__card__description">
 							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum in
 							labore laudantium deserunt fugiat numquam.
@@ -597,7 +633,7 @@
 				<h4>Pages</h4>
 				<ul>
 				  <li><i class="fa fa-angle-right"></i> <a href="index.html">Home</a></li>
-				  <li><i class="fa fa-angle-right"></i> <a href="html/about.html">About us</a></li>
+				  <li><i class="fa fa-angle-right"></i> <a href="html/about.html">About Us</a></li>
 				  <li><i class="fa fa-angle-right"></i> <a href="html/services.html">Services</a></li>
 				  <li><i class="fa fa-angle-right"></i> <a href="html/solutions.html">Solutions</a></li>
 				  <li><i class="fa fa-angle-right"></i> <a href="html/partners&clients.html">Partners & Clients</a></li>
@@ -697,6 +733,25 @@
   }
     });
   </script>
+
+
+
+<script>
+	function searchWebsite() {
+	  const searchQuery = document.getElementById('searchInput').value.toLowerCase();
+	  const allElements = document.querySelectorAll('*'); // Select all elements in the DOM
+	
+	  for (const element of allElements) {
+		const textContent = element.innerText.toLowerCase();
+		if (textContent.includes(searchQuery)) {
+		  // Highlight or manipulate the found element as you wish
+		  element.style.backgroundColor = 'none';
+		}
+	  }
+	}
+	</script>
+
+
 
 
 <script src="js/jquery.js"></script>
