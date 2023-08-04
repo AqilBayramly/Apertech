@@ -536,6 +536,11 @@
 	color:#0060ff;
 }
 
+.technology__icon{
+	width: 90px;
+	height: 90px;
+}
+
 .technology__block .inner-box:hover h6{
 	color:#000055;
 }
