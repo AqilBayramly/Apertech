@@ -183,17 +183,17 @@
 	background-repeat:no-repeat;
 } */
 
-.about-section-two .image-column .inner-column .about__erp__image{
+.about__erp__image{
 	position:relative;
 	overflow:hidden;
 	border:15px solid #ffffff;
 	border-radius:0px 0px 250px 250px;
+	max-width: 600px;
 }
 
 
 .about__section__two__image{
-	/* width: 100%; */
-	height: 600px;
+	max-height: 600px;
 	object-fit: contain;
 	background-color: white;
 }

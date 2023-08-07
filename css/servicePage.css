@@ -128,10 +128,6 @@
 	-o-transition:all 0.3s ease;
 }
 
-/* .news-block-three .inner-box .lower-content h4 :hover{
-	color:#0060ff;
-} */
-
 .news-block-three .inner-box .lower-content .text{
 	position:relative;
 	line-height:1.8em;
@@ -140,28 +136,6 @@
 	color:#555555;
 	font-size:16px;
 	margin-bottom:12px;
-}
-
-.news-block-three .inner-box .lower-content .read-more{
-	position:relative;
-	line-height:1.4em;
-	font-weight:700;
-	margin-top:12px;
-	color:#141d38;
-	font-size:14px;
-	transition:all 0.3s ease;
-	-moz-transition:all 0.3s ease;
-	-webkit-transition:all 0.3s ease;
-	-ms-transition:all 0.3s ease;
-	-o-transition:all 0.3s ease;
-	font-family: 'Montserrat', sans-serif;
-}
-
-.news-block-three .inner-box .lower-content .read-more .arrow{
-	position:relative;
-	top:1px;
-	font-size:16px;
-	margin-left:8px;
 }
 
 .news-block-three.style-two .inner-box .lower-content{
@@ -188,7 +162,6 @@
 .service__form__section .form__image__layer:before{
 	background-color:rgba(255, 255, 255, 0) !important;
 }
-
 
 .service__form__section .inner-container{
 	position:relative;
@@ -258,7 +231,7 @@
 
 .appointment-section{
 	position:relative;
-	padding-top:110px;
+	padding-top:80px;
 }
 
 .appointment-section.style-two{
@@ -278,7 +251,6 @@
 .appointment-section .image-layer:before{
 	background-color:rgba(255, 255, 255, 0) !important;
 }
-
 
 .appointment-section .inner-container{
 	position:relative;
@@ -335,7 +307,7 @@
 	color:#141d38;
 	font-weight:600;
 	line-height:1.4em;
-	margin-bottom:30px;
+	margin-bottom:10px;
 }
 
 /* Appointment Form */
@@ -343,6 +315,7 @@
 .appointment-form{
 	position: relative;
 	z-index:1;
+	margin-top: 30px;
 }
 
 .appointment-form .form-group{
@@ -478,9 +451,6 @@ button {
 	width: 75px;
 	height: 75px;
 }
-
-
-  
 
 
   @media only screen and (max-width: 965px) {
