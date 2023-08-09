@@ -266,7 +266,7 @@
 	-o-transition:all 300ms ease;
 }
 
-.service-block-two .inner-box h5:hover a{
+.service-block-two .inner-box h5 a:hover{
 color: #2b7bfc !important;
 }
 

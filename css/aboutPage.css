@@ -478,6 +478,7 @@
 	padding:45px 15px;
 	text-align:center;
 	border-radius:10px;
+	background-color: white;
 	border:1px dashed rgba(255,255,255,0.60);
 	transition:all 0.3s ease;
 	-moz-transition:all 0.3s ease;
@@ -499,7 +500,6 @@
 .technology__block .inner-box .icon-box{
 	position:relative;
 	/* color:#0060ff; */
-	color:white;
 	font-size:64px;
 	line-height:1em;
 	transition:all 0.3s ease;
@@ -516,7 +516,7 @@
 .technology__block .inner-box h6{
 	height: 50px;
 	position:relative;
-	color:#ffffff;
+	color:black;
 	font-weight:600;
 	margin-top:18px;
 	text-transform:uppercase;

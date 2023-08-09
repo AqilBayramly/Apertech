@@ -89,7 +89,7 @@
 	height:110px;
 	z-index:-1;
 	margin-left:-8px;
-	background:url(../images/icons/pattern-2.png) no-repeat;
+	/* background:url(../images/icons/pattern-2.png) no-repeat; */
 }
 
 .news-block-three .inner-box .lower-content .icon-box .icon{
