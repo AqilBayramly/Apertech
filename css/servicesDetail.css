@@ -224,6 +224,16 @@
 	border-color:#141d38;
 }
 
+.active__page{
+	background-color: #0060ff !important;
+	color: white !important;
+}
+
+.active__page>a{
+	color: white !important;
+}
+
+
 
 @media only screen and (max-width: 1335px) {
     .sidebar .service-list li a{
