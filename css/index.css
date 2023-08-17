@@ -544,9 +544,12 @@ color: #2b7bfc !important;
     position: relative;
     z-index: 1;
     overflow: hidden;
-    height: 320px;
+    height: 330px;
     padding:15px 25px;
     transition: 0.7s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
   
   .solution_cards_box .solution_card:hover {
@@ -621,7 +624,7 @@ color: #2b7bfc !important;
 
   .hover_color_bubble {
     position: absolute;
-    background: rgba(20, 23, 241, 0.15);
+    background: rgba(53, 56, 236, 0.137);
     /* background: #309df0; */
     width: 100rem;
     height: 100rem;
@@ -759,6 +762,13 @@ color: #2b7bfc !important;
 
   .swiper__wrapper2{
     margin-left: 10px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .call-to-action-section .button-column{
+    display: flex;
+    justify-content: center;
   }
 }
 
