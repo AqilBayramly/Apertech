@@ -329,7 +329,7 @@
 
 .counter-section .inner-container{
 	position:relative;
-	padding:60px 0px 30px 60px;
+	padding:60px 0px 30px 25px;
 }
 
 .counter-section .inner-container:before{
@@ -337,7 +337,7 @@
 	content:'';
 	left:0px;
 	top:0px;
-	right:-200px;
+	right:0px;
 	bottom:0px;
 	border-radius:15px;
 	background-color:#e7f0ff;
