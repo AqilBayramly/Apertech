@@ -39,7 +39,7 @@
     background-color: white;
     border-radius: 10px;
     display: flex;
-    align-items: center;
+    align-items: cent er;
     justify-content: center;
     overflow: hidden;
     box-shadow: 0 0 0 5px #ffffff80;
@@ -77,9 +77,9 @@
     transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   }
   
-  .clients__box__card:hover .card__content {
+  /* .clients__box__card:hover .card__content {
     transform: rotateX(0deg);
-  }
+  } */
   
   .card__title {
     margin: 0;
@@ -89,9 +89,9 @@
     text-align: center;
   }
   
-  .clients__box__card:hover img {
+  /* .clients__box__card:hover img {
     scale: 0;
-  }
+  } */
   
   .card__description {
     margin: 10px 0 0;
@@ -110,6 +110,97 @@
     z-index: 1;
     display: block;
 }
+
+/* From Uiverse.io by cssbuttons-io */ 
+.see_all_container{
+  margin-top: 15px;
+  display: flex;
+  justify-content: right;
+}
+
+.see_all_btn {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  outline: none;
+  border: 0;
+  vertical-align: middle;
+  text-decoration: none;
+  background: transparent;
+  padding: 0;
+  /* font-size: inherit; */
+  /* font-family: inherit; */
+  width: 12rem;
+  height: auto;
+ }
+ 
+ .see_all_btn > .circle {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: relative;
+  display: block;
+  margin: 0;
+  width: 3rem;
+  height: 3rem;
+  background: #282936;
+  border-radius: 1.625rem;
+ }
+ 
+ .see_all_btn > .circle .icon {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  background: #fff;
+ }
+ 
+ .see_all_btn > .circle .icon.arrow {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  left: 0.625rem;
+  width: 1.125rem;
+  height: 0.125rem;
+  background: none;
+ }
+ 
+ .see_all_btn > .circle .icon.arrow::before {
+  position: absolute;
+  content: "";
+  top: -0.29rem;
+  right: 0.0625rem;
+  width: 0.625rem;
+  height: 0.625rem;
+  border-top: 0.125rem solid #fff;
+  border-right: 0.125rem solid #fff;
+  transform: rotate(45deg);
+ }
+ 
+ .see_all_btn > .button-text {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0.75rem 0;
+  margin: 0 0 0 1.85rem;
+  color: black;
+  font-weight: 700;
+  line-height: 1.6;
+  text-align: center;
+ }
+ 
+ .see_all_btn:hover .circle {
+  width: 100%;
+ }
+ 
+ .see_all_btn:hover .circle .icon.arrow {
+  background: #fff;
+  transform: translate(1rem, 0);
+ }
+ 
+ .see_all_btn:hover .button-text {
+  color: #fff;
+ }
 
 
 /***
@@ -497,7 +588,97 @@ color: #2b7bfc !important;
       transition-delay: 500ms;
     }
   }
-  
+
+/* services card */ 
+.services_card_section{
+  max-width: 70%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  -ms-flex-wrap: wrap;
+ }
+
+.services_card {
+  width: 310px;
+  height: 400px;
+  border-radius: 20px;
+  background: white;
+  position: relative;
+  padding: 1.8rem;
+  border: 2px solid #c3c6ce;
+  transition: 0.5s ease-out;
+  overflow: visible;
+ }
+ 
+ .card-details {
+  color: black;
+  height: 100%;
+  gap: .5em;
+  display: grid;
+  place-content: center;
+ }
+ 
+ .services_card_button {
+  transform: translate(-50%, 125%);
+  width: 60%;
+  border-radius: 1rem;
+  border: none;
+  background-color: #52aeca;
+  color: #fff;
+  font-size: 1rem;
+  padding: .5rem 1rem;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  opacity: 0;
+  transition: 0.3s ease-out;
+  cursor: pointer;
+ }
+ 
+ .services_card_text_body {
+  color: rgb(134, 134, 134);
+ }
+ 
+ /*Text*/
+ .services_card_text_title {
+  font-size: 1.5em;
+  font-weight: bold;
+ }
+ 
+ /*Hover*/
+ .services_card:hover {
+  border-color: #52aeca;
+  box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
+ }
+ 
+ .services_card:hover .services_card_button {
+  transform: translate(-50%, 50%);
+  opacity: 1;
+ }
+
+ .so_top_icon {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background: #fff;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+}
+
+ .so_top_icon img {
+  width: 60px;
+  height: 50px;
+  object-fit: contain;
+}
+
 
   /* ag-format start */
 
@@ -505,6 +686,7 @@ color: #2b7bfc !important;
     /* width: 1142px; */
     max-width: 70%;
     margin: 0 auto;
+    margin-top: 50px;
   }
 
   .ag-courses_box {
@@ -539,23 +721,7 @@ color: #2b7bfc !important;
     position: relative;
   }
 
-  .so_top_icon {
-    width: 70px;
-    height: 70px;
-    border-radius: 50%;
-    background: #fff;
-    overflow: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    z-index: 100;
-  }
-  
-   .so_top_icon img {
-    width: 60px;
-    height: 50px;
-    object-fit: contain;
-  }
+
 
   .read_more_btn {
     border: 0;
@@ -765,17 +931,6 @@ color: #2b7bfc !important;
 }
 
 @media only screen and (max-width: 639px) {
-  .ag-courses-item_title {
-    line-height: 1;
-    font-size: 24px;
-  }
-  .ag-courses-item_link {
-    padding: 22px 40px;
-  }
-  .ag-courses-item_date-box {
-    font-size: 16px;
-  }
-
   .call-to-action-section{
     padding:55px 0px;
   }
@@ -834,7 +989,6 @@ color: #2b7bfc !important;
     font-weight: 700;
     text-align: center;
   }
-
 }
 
 @media only screen and (max-width: 350px) {

@@ -10,7 +10,7 @@ function sendMail() {
     website: document.getElementById("companyWeb").value,
   };
 
-  const serviceID = "service_ngbwel7";
+  const serviceID = "service_hxd7j0a";
   const templateID = "template_suotqjf";
 
   let isEmptyField = false;
